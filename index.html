@@ -1,0 +1,284 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#100d09">
+  <meta name="description" content="Café Para Você: cafés especiais, doces artesanais e momentos únicos.">
+  <title>Café Para Você | Sabores que conectam</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="header">
+  <a href="#inicio" class="logo">
+    <span class="logo-icon">☕</span>
+    <span>
+      <strong>CAFÉ PARA VOCÊ</strong>
+      <small>SABORES QUE CONECTAM</small>
+    </span>
+  </a>
+
+  <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+
+  <nav class="nav" id="nav-links">
+    <a href="#inicio">Início</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#cardapio">Cardápio</a>
+    <a href="#experiencia">Experiência</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <a href="#cardapio" class="header-button">VER CARDÁPIO ↗</a>
+</header>
+
+<main>
+  <section class="hero" id="inicio">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <p class="eyebrow">CAFETERIA • CAFÉS ESPECIAIS • MOMENTOS ÚNICOS</p>
+
+      <h1>Mais do que café,<br><em>é uma experiência.</em></h1>
+
+      <p class="hero-description">
+        Um bom café muda o ritmo do dia. Venha descobrir sabores
+        especiais, doces artesanais e um lugar perfeito para sua pausa.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#cardapio" class="button button-gold">EXPLORAR CARDÁPIO ↗</a>
+        <a href="#sobre" class="button button-outline">CONHEÇA NOSSA HISTÓRIA</a>
+      </div>
+
+      <p class="hero-note">FEITO COM CARINHO. SERVIDO COM PROPÓSITO.</p>
+    </div>
+  </section>
+
+  <section class="features">
+    <article>
+      <span class="feature-icon">♨</span>
+      <h3>Cafés especiais</h3>
+      <p>Grãos selecionados e preparo cuidadoso.</p>
+    </article>
+
+    <article>
+      <span class="feature-icon">✳</span>
+      <h3>Doces artesanais</h3>
+      <p>Pequenas delícias para acompanhar seu café.</p>
+    </article>
+
+    <article>
+      <span class="feature-icon">⌂</span>
+      <h3>Ambiente acolhedor</h3>
+      <p>Um espaço para conversar e desacelerar.</p>
+    </article>
+
+    <article>
+      <span class="feature-icon">♡</span>
+      <h3>Momentos únicos</h3>
+      <p>Uma experiência especial em cada visita.</p>
+    </article>
+  </section>
+
+  <section class="about section" id="sobre">
+    <div class="about-image">
+      <img
+        src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1200&q=85"
+        alt="Interior aconchegante de uma cafeteria"
+        loading="lazy"
+      >
+      <div class="image-caption">
+        <span>UM LUGAR PARA VOCÊ</span>
+        <strong>Seu momento, seu café.</strong>
+      </div>
+    </div>
+
+    <div class="about-content">
+      <p class="eyebrow">SOBRE O CAFÉ NEXUS</p>
+      <h2>Tradição no preparo.<br><em>Afeto em cada detalhe.</em></h2>
+
+      <p>
+        Acreditamos que os melhores momentos não precisam de pressa.
+        Por isso, reunimos cafés marcantes, receitas deliciosas e um
+        ambiente pensado para você se sentir em casa.
+      </p>
+
+      <p>
+        Seja para encontrar alguém especial, trabalhar ou simplesmente
+        aproveitar sua própria companhia, temos uma mesa esperando por você.
+      </p>
+
+      <a href="#contato" class="text-link">VENHA NOS CONHECER →</a>
+    </div>
+  </section>
+
+  <section class="menu-section section" id="cardapio">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">ESCOLHAS DA CASA</p>
+        <h2>Sabores que vão<br><em>te conquistar.</em></h2>
+      </div>
+
+      <p>
+        Do espresso intenso aos doces irresistíveis,
+        descubra seu novo favorito.
+      </p>
+    </div>
+
+    <div class="menu-grid">
+      <article class="menu-card">
+        <div class="menu-image">
+          <img
+            src="https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=800&q=85"
+            alt="Cappuccino cremoso"
+            loading="lazy"
+          >
+          <span>FAVORITO DA CASA</span>
+        </div>
+        <div class="menu-info">
+          <div>
+            <h3>Cappuccino</h3>
+            <p>Espresso, leite cremoso e cacau.</p>
+          </div>
+          <strong>R$ 12,00</strong>
+        </div>
+      </article>
+
+      <article class="menu-card">
+        <div class="menu-image">
+          <img
+            src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=85"
+            alt="Bolo de chocolate"
+            loading="lazy"
+          >
+        </div>
+        <div class="menu-info">
+          <div>
+            <h3>Bolo de chocolate</h3>
+            <p>Massa macia e cobertura especial.</p>
+          </div>
+          <strong>R$ 14,00</strong>
+        </div>
+      </article>
+
+      <article class="menu-card">
+        <div class="menu-image">
+          <img
+            src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=800&q=85"
+            alt="Croissant artesanal"
+            loading="lazy"
+          >
+        </div>
+        <div class="menu-info">
+          <div>
+            <h3>Croissant</h3>
+            <p>Crocante por fora, leve por dentro.</p>
+          </div>
+          <strong>R$ 10,00</strong>
+        </div>
+      </article>
+
+      <article class="menu-card">
+        <div class="menu-image">
+          <img
+            src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=85"
+            alt="Café gelado"
+            loading="lazy"
+          >
+        </div>
+        <div class="menu-info">
+          <div>
+            <h3>Café gelado</h3>
+            <p>Refrescante, equilibrado e cremoso.</p>
+          </div>
+          <strong>R$ 11,00</strong>
+        </div>
+      </article>
+    </div>
+
+    <p class="disclaimer">
+      Cardápio e preços ilustrativos para esta demonstração.
+    </p>
+  </section>
+
+  <section class="experience section" id="experiencia">
+    <div class="experience-overlay"></div>
+
+    <div class="experience-content">
+      <p class="eyebrow">MAIS QUE UMA CAFETERIA</p>
+      <h2>Pequenas pausas.<br><em>Grandes momentos.</em></h2>
+      <p>
+        Um café quentinho, uma boa conversa e um ambiente
+        que convida você a ficar mais um pouco.
+      </p>
+      <a href="#contato" class="button button-gold">PLANEJE SUA VISITA ↗</a>
+    </div>
+  </section>
+
+  <section class="contact section" id="contato">
+    <div>
+      <p class="eyebrow">VAMOS MARCAR UMA PAUSA?</p>
+      <h2>Seu próximo café<br><em>pode ser aqui.</em></h2>
+      <p>
+        Estamos esperando por você. Confira nossas informações
+        e venha viver essa experiência.
+      </p>
+    </div>
+
+    <div class="contact-details">
+      <div class="contact-item">
+        <span>⌖</span>
+        <div>
+          <h3>Nosso endereço</h3>
+          <p>Rua das Flores, 123 — Centro<br>Curitiba, PR</p>
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <span>◷</span>
+        <div>
+          <h3>Horário de funcionamento</h3>
+          <p>Segunda a sábado: 08h às 19h<br>Domingo: 09h às 14h</p>
+        </div>
+      </div>
+
+      <a
+        class="button button-gold whatsapp-button"
+        href="https://wa.me/5541999999999"
+        target="_blank"
+        rel="noopener"
+      >
+        FALE CONOSCO NO WHATSAPP ↗
+      </a>
+
+      <p class="disclaimer">
+        Dados de exemplo: substitua endereço, horários e telefone
+        pelos dados reais do estabelecimento.
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <a href="#inicio" class="logo">
+    <span class="logo-icon">☕</span>
+    <span>
+      <strong>CAFÉ PARA VOCÊ</strong>
+      <small>SABORES QUE CONECTAM</small>
+    </span>
+  </a>
+
+  <p>Uma boa pausa começa com um bom café.</p>
+  <small>© <span id="year"></span> Café Para Você. Site demonstrativo.</small>
+</footer>
+
+</body>
+</html>
